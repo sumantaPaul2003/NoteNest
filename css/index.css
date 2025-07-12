@@ -1,0 +1,32 @@
+body {
+    background-color: #f4f4f9;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #28a772;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.features {
+    margin-top: 50px;
+}
+
+.feature-card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.btn-primary {
+    background-color: #28a772;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #218d62;
+}

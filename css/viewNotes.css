@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    /* background-color: #4495e6; */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #28a772 !important;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: #fff !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #f8f9fa !important;
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /* Alert Box Styling */
+  #alertBox {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+
+  /* your Note */
+  #yn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  /* Modal Styling */
+  .modal-content {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-header {
+    background-color: #d628c8;
+    color: #fff;
+  }
+  
+  .modal-footer button {
+    border-radius: 6px;
+    background-color: rgb(207, 128, 71);
+  }
+  
+  /* Table Styling */
+  .table {
+    margin-top: 20px;
+    background: #fff;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th {
+    background-color: rgb(46, 189, 194);
+    color: white;
+    text-align: center;
+  }
+  
+  .table td,
+  .table th {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .table td {
+    text-align: center;
+  }
+  
+  /* Buttons */
+  button {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  .edit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+  }
+  
+  .edit:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+  }
+  
+  .delete:hover {
+    background-color: #c82333;
+  }
+  
+  /* Add Note Button */
+  button[onclick] {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  /* Footer (Optional) */
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  

@@ -1,0 +1,6 @@
+CREATE TABLE `` (
+  `sno` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `title` varchar(50) NOT NULL,
+  `des` text NOT NULL,
+  `tstamp` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci AUTO_INCREMENT=99;

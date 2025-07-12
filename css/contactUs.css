@@ -1,0 +1,52 @@
+/* Navbar Styling ------------*/
+.navbar {
+    background-color: #28a772 !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #f8f9fa !important;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* ------------------------------- */
+.contact-container {
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 50px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-header {
+    color: #28a772;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-submit {
+    background-color: #28a772;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn-submit:hover {
+    background-color: #218d62;
+    color: #fff;
+}
